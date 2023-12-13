@@ -21,7 +21,7 @@ body {
 
 .header {
   height: var(--tamanho-header);
-  border-bottom: 2px solid #32b9cd;
+  border-bottom: 3px solid #e3b062;
 }
 
 .header .container {
@@ -33,10 +33,18 @@ body {
 .header a {
   text-decoration: none;
   color: #e3b062;
+  text-transform: uppercase;
+  transition: all .2s ease-in-out;
+  margin: 0 8px;
+  letter-spacing: 1px;
 }
 
-.agora {
-  font-weight: 800;
+.header a:hover {
+  color: white;
+}
+
+.bar {
+  margin: 0 8px;
 }
 
 .navbar {
@@ -49,7 +57,7 @@ body {
 }
 
 .titulo {
-  color: #32b9cd;
+  color: #e3b062;
   width: fit-content;
   font-weight: 500;
 }
@@ -60,24 +68,26 @@ body {
 
 .banner {
   height: var(--tamanho-banner);
-  background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+  background: linear-gradient(90deg, rgba(0,0,0, 0.6) 0%, rgba(0,0,0,0.6) 100%),url('../assets/imgs/back_beer.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 .banner .container {
-  justify-content: center;
   align-items: center;
   height: 100%;
+  
 }
 
 .banner .container p {
   font-size: 36px;
   color: white;
-  width: 280px;
+  width: 300px;
 }
 
 .banner .container span {
   font-weight: 800;
+  color: #e3b062;
 }
 
 .social {
@@ -97,19 +107,25 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  height: 450px;
+  align-items: center;
 }
 
 .box {
   width: 280px;
-  height: 450px;
+  padding: 10px;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 4px #0000007b ;
 }
 
 .box p {
-  text-align: center;
+  text-align: justify;
 }
 
 .login {
@@ -237,7 +253,7 @@ body {
 .footer {
   height: var(--tamanho-footer);
   width: 100%;
-  background-color: #32b9cd;
+  background-color: #aa8449;
   color: #fff;
 }
 
