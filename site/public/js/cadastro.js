@@ -22,3 +22,7 @@ function cadastrar() {
         });
     })
 }
+
+function redirecionarLogin(){
+    window.location.href = "../login.html"
+}
