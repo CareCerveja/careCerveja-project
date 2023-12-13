@@ -16,13 +16,14 @@ function cadastrar() {
             cnpjServer: cnpj
         })
     }).then(res => {
-        res.text().then(res => {
-            console.log(res);
-            window.location.href = "../login.html";
+        res.text().then(() => {
+            setTimeout(() => {
+                window.location.href = "../login.html";
+            }, 1500);
         });
     })
 }
 
-function redirecionarLogin(){
+function redirecionarLogin() {
     window.location.href = "../login.html"
 }
