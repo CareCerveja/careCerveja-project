@@ -282,3 +282,8 @@ body {
   overflow: scroll; 
   height: var(--tamanho-simulador);
 }
+
+.image-nav{
+  height: 70px;
+  width: 230px;
+}
