@@ -25,3 +25,7 @@ function logar() {
         }
     })
 }
+
+function redirecionarCadastro(){
+    window.location.href = "../cadastro.html"
+}
