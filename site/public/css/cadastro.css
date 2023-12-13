@@ -4,7 +4,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.login{
+.cadastro{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -14,13 +14,13 @@
     background-color: #ddd8d3;
 }
 
-.formulario-login{
+.formulario-cadastro{
     width: 45%;
     height: 90%;
     background: rgb(24,26,15);
-    background: linear-gradient(360deg, rgba(24,26,15,1) 0%, rgba(51,30,10,1) 35%, rgb(163, 92, 16) 100%);
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    background: linear-gradient(360deg, rgba(24,26,15,1) 0%, rgba(51,30,10,1) 35%, rgb(158, 86, 9) 100%);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
      box-shadow: 5px 5px 5px rgb(162, 162, 162);
 
      display: flex;
@@ -29,11 +29,11 @@
      align-items: center;
 }
 
-.imagem-login{
+.imagem-cadastro{
     width: 30%;
     height: 90%;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     box-shadow: 5px 5px 5px rgb(162, 162, 162);
     background: linear-gradient(360deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 35%), url(../assets/imgs/beer-820011_1920.jpg);
     background-size: cover;
@@ -44,20 +44,20 @@
      align-items: center;
 }
 
-.imagem-login h3{
+.imagem-cadastro h3{
     color: #fff;
     font-size: 17px;
     margin-bottom: 8px;
 }
 
 
-.imagem-login span{
+.imagem-cadastro span{
     color: #fff;
     font-size: 13px;
     margin-bottom: 30px;
 }
 
-.imagem-login button{
+.imagem-cadastro button{
     background-color: transparent;
     
     border: 1px solid #fff;
@@ -71,11 +71,11 @@
     transition: 1s;
 }
 
-.imagem-login button:hover{
+.imagem-cadastro button:hover{
     background-color: #fff;
     color: black;
 }
-.imagem-login img{
+.imagem-cadastro img{
     width: 100%;
     height: 100%;
     border-top-right-radius: 15px;
@@ -83,7 +83,7 @@
     position: relative;
 }
 
-.imagem-login img::before{
+.imagem-cadastro img::before{
     position: absolute;
     width: 100px;
     height: 100px;
@@ -123,7 +123,7 @@
     letter-spacing: 1px;
 }
 
-.formulario-login button{
+.formulario-cadastro button{
     background-color: #b3620c;
     border: none;
    
@@ -136,6 +136,6 @@
     transition: all .3s ease-in-out;
 }
 
-.formulario-login button:hover{
+.formulario-cadastro button:hover{
     padding: 0 32px;
 }
