@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-login{
+    width: 40%;
+    height: 90%;
+    background: rgb(24,26,15);
+    background: linear-gradient(360deg, rgba(24,26,15,1) 0%, rgba(51,30,10,1) 35%, rgba(179,98,12,1) 100%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+     box-shadow: 5px 5px 5px rgb(162, 162, 162);
+
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.imagem-login{
+    width: 30%;
+    height: 90%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(162, 162, 162);
+    background: linear-gradient(360deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 35%), url(../assets/imgs/beer-820011_1920.jpg);
+    background-size: cover;
+    
+}
+
+.imagem-login img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+}
+
+.imagem-login img::before{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #b3620c;
+    z-index: 2;
+}
+
+.campo{
+    display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     
+}
+
+.campo label{
+    color: #fff;
+    font-size: 15px;
+    margin: 0 0 10px 15px;
+}
+
+.campo input{
+    height: 20px;
+    width: 250px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.titulo-form h3{
+    color: #fff;
+    font-size: 30px;
+}
+
+button{
+    background-color: #b3620c;
+    border: none;
+    width: 130px;
+    height: 45px;
+    border-radius: 15px;
+    padding: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
