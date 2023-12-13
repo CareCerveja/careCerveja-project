@@ -16,6 +16,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+        <link rel="shortcut icon" href="assets/imgs/imagem-cerveja.png" type="image/x-icon">
 </head>
 
 <body>
@@ -28,16 +29,18 @@
             
             <div class="campo">
                 <label for="email_input">E-mail</label>
-                <input type="text" placeholder="emailempresa@" id="email_input">
+                <input type="text" placeholder="email@empresa.com" id="email_input">
             </div>
             <div class="campo">
                 <label for="senha_input">Senha</label>
-                <input type="text" placeholder="****" id="senha_input">
+                <input type="password" placeholder="****" id="senha_input">
             </div>
             <button onclick="logar()">Entrar</button>
         </div>
         <div class="imagem-login">
-            <!-- <img src="./assets/imgs/beer-820011_1920.jpg" alt=""> -->
+            <h3>Ainda não pussui uma conta?</h3>
+            <span>Cadastre-se e venha fazer parte da CareCerveja!</span>
+            <button onclick="redirecionarCadastro()">Cadastre-se</button>
         </div>
     </div>
 <script src="./js/login.js"></script>
