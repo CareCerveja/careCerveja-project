@@ -21,7 +21,7 @@ body {
 
 .header {
   height: var(--tamanho-header);
-  border-bottom: 3px solid #e3b062;
+  border-bottom: 3px solid #FB810A;
 }
 
 .header .container {
@@ -32,7 +32,7 @@ body {
 
 .header a {
   text-decoration: none;
-  color: #e3b062;
+  color: #FB810A;
   text-transform: uppercase;
   transition: all .2s ease-in-out;
   margin: 0 8px;
@@ -53,11 +53,11 @@ body {
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  color: #e3b062;
+  color: #FB810A;
 }
 
 .titulo {
-  color: #e3b062;
+  color: #FB810A;
   width: fit-content;
   font-weight: 500;
 }
@@ -87,12 +87,13 @@ body {
 
 .banner .container span {
   font-weight: 800;
-  color: #e3b062;
+  color: #FB810A;
 }
 
 .social {
   background-color: #e5e5e5;
   display: flex;
+  height: 550px;
 }
 
 .social .container {
@@ -253,7 +254,7 @@ body {
 .footer {
   height: var(--tamanho-footer);
   width: 100%;
-  background-color: #aa8449;
+  background-color: #000;
   color: #fff;
 }
 
@@ -286,4 +287,30 @@ body {
 .image-nav{
   height: 70px;
   width: 230px;
+}
+.footer{
+  height: 220px;
+  display: flex;
+}
+
+.container-footer{
+  height: 100%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-footer{
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+
+.icon-footer:hover{
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  transition: 0.4s;
+  cursor: pointer;
 }
