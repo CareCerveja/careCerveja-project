@@ -38,8 +38,8 @@ function cadastrar(req, res) {
         res.status(400).send("Preencha o campo de CNPJ!");
     } else {
         usuarioModel.cadastrar(nome, email, senha, cnpj)
-            .then(resultado => {
-                res.status(201).json(resultado);
+            .then(() => {
+                res.status(201).send("Empresa cadastrada com sucesso!");
             }).catch(error => {
                 console.log(error);
             });
